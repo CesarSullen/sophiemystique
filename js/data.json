@@ -1,0 +1,182 @@
+[
+  {
+    "index": 1,
+    "title": "As It Was",
+    "artist": "Harry Styles",
+    "genre": "pop"
+  },
+  {
+    "index": 2,
+    "title": "Attention",
+    "artist": "Charlie Puth",
+    "genre": "pop"
+  },
+  {
+    "index": 3,
+    "title": "Bad Habits",
+    "artist": "Ed Sheeran",
+    "genre": "pop"
+  },
+  {
+    "index": 4,
+    "title": "Blank Space",
+    "artist": "Taylor Swift",
+    "genre": "pop"
+  },
+  {
+    "index": 5,
+    "title": "Circles",
+    "artist": "Post Malone",
+    "genre": "pop"
+  },
+  {
+    "index": 6,
+    "title": "Cool for the Summer",
+    "artist": "Demi Lovato",
+    "genre": "pop"
+  },
+  {
+    "index": 7,
+    "title": "Cruel Summer",
+    "artist": "Taylor Swift",
+    "genre": "pop"
+  },
+  {
+    "index": 8,
+    "title": "Circles",
+    "artist": "Post Malone",
+    "genre": "pop"
+  },
+  {
+    "index": 9,
+    "title": "Dangerous Woman",
+    "artist": "Ariana Grande",
+    "genre": "pop"
+  },
+  {
+    "index": 10,
+    "title": "Deja vu",
+    "artist": "Olivia Rodrigo",
+    "genre": "pop"
+  },
+  {
+    "index": 11,
+    "title": "Die for you",
+    "artist": "The Weeknd",
+    "genre": "pop"
+  },
+  {
+    "index": 12,
+    "title": "Flowers",
+    "artist": "Miley Cyrus",
+    "genre": "pop"
+  },
+  {
+    "index": 13,
+    "title": "Happy",
+    "artist": "Pharell Williams",
+    "genre": "pop"
+  },
+  {
+    "index": 14,
+    "title": "Lost in Japan",
+    "artist": "Shawn Mendez",
+    "genre": "pop"
+  },
+  {
+    "index": 15,
+    "title": "Love on the Brain",
+    "artist": "Rihanna",
+    "genre": "pop"
+  },
+  {
+    "index": 16,
+    "title": "Fire in the Sky",
+    "artist": "Anderson Paak",
+    "genre": "R&B"
+  },
+  {
+    "index": 17,
+    "title": "Best Part",
+    "artist": "HER, Daniel Ceasar",
+    "genre": "R&B"
+  },
+  {
+    "index": 18,
+    "title": "From Eden",
+    "artist": "Hozier",
+    "genre": "R&B"
+  },
+  {
+    "index": 19,
+    "title": "If I Ain't Got You",
+    "artist": "Alicia Keys",
+    "genre": "R&B"
+  },
+  {
+    "index": 20,
+    "title": "Get Lucky",
+    "artist": "Pharell Williams",
+    "genre": "R&B"
+  },
+  {
+    "index": 21,
+    "title": "Japanese Denim",
+    "artist": "Daniel Ceasar",
+    "genre": "R&B"
+  },
+  {
+    "index": 22,
+    "title": "Treasure",
+    "artist": "Bruno Mars",
+    "genre": "R&B"
+  },
+  {
+    "index": 23,
+    "title": "Lose Control",
+    "artist": "Teddy Swims",
+    "genre": "R&B"
+  },
+  {
+    "index": 24,
+    "title": "Lost",
+    "artist": "Frank Ocean",
+    "genre": "R&B"
+  },
+  {
+    "index": 25,
+    "title": "No One",
+    "artist": "Alicia Keys",
+    "genre": "R&B"
+  },
+  {
+    "index": 26,
+    "title": "My Future",
+    "artist": "Billie Eilish",
+    "genre": "R&B"
+  },
+  {
+    "index": 27,
+    "title": "Passionfruit",
+    "artist": "Drake",
+    "genre": "R&B"
+  },
+  {
+    "index": 28,
+    "title": "Water",
+    "artist": "Tyla",
+    "genre": "R&B"
+  },
+  {
+    "index": 29,
+    "title": "Worth It",
+    "artist": "Raye",
+    "genre": "R&B"
+  },
+  {
+    "index": 30,
+    "title": "Valerie",
+    "artist": "Amy Winehouse",
+    "genre": "R&B"
+  }
+]

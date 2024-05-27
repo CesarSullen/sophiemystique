@@ -1,0 +1,218 @@
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  transition: all 0.2s;
+  list-style: none;
+  text-decoration: none;
+}
+
+// Typography
+// Poppins
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+// Spectral
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+// Italianno
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+// Colors
+$bg-color: #f2e7eb;
+$primary-color: #0570b6;
+$font-color: #2d2d2d;
+
+// Utilities
+.important-text {
+  color: $primary-color;
+}
+.bold {
+  font-weight: 600;
+}
+.underline {
+  text-decoration: underline;
+}
+.italic {
+  font-style: italic;
+}
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  max-width: 400px;
+  background-color: $primary-color;
+  color: $bg-color;
+
+  &:hover {
+    box-shadow: 0 0 10px 1px $primary-color;
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+}
+.styled-text-1 {
+  font-family: "Spectral";
+}
+.styled-text-2 {
+  font-family: "Italianno";
+}
+.body-container {
+  padding: 1.5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+// Fade In Transition
+.section {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 0.5s;
+  margin-bottom: 2rem;
+
+  &.show {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+body {
+  background-color: $bg-color;
+  color: $font-color;
+  font-family: "Poppins";
+}
+h1 {
+  font-family: "Spectral";
+}
+p {
+  margin-bottom: 1rem;
+}
+
+.bg-image {
+  /*   filter: blur(15px);
+  opacity: 0.7; */
+  width: 100%;
+  position: relative;
+  top: 0px;
+}
+.desktop-bg-image {
+  display: none;
+  width: 100%;
+  position: relative;
+  top: 0px;
+}
+.artist-name {
+  font-size: 2.5rem;
+  text-align: center;
+}
+/* .profile-image-name {
+  position: absolute;
+  top: 15%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+.profile-image {
+  width: 270px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px 1px $bg-color;
+}
+ */
+.bio-nav-section {
+  display: flex;
+  flex-direction: column;
+}
+.bio-section {
+  h1 {
+    font-family: "Spectral";
+    margin-bottom: 1rem;
+  }
+}
+.nav-section {
+  display: block;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    margin-bottom: 1rem;
+  }
+}
+
+// Desktop View
+@media screen and (min-width: 700px) {
+  /*   .hero {
+    .profile-image {
+      width: 350px;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+  } */
+  .bg-image {
+    display: none;
+  }
+  .desktop-bg-image {
+    display: block;
+  }
+  .artist-name {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  .bio-nav-section {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .bio-section {
+    width: 50%;
+  }
+  .nav-section {
+    width: 50%;
+  }
+}
+/* 
+// Fixing the absolute position issue for all displays
+.bio-nav-section {
+  margin-top: 13rem;
+}
+@media screen and (min-width: 400px) {
+  .bio-nav-section {
+    margin-top: 10rem;
+  }
+}
+@media screen and (min-width: 500px) {
+  .bio-nav-section {
+    margin-top: 7rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  .bio-nav-section {
+    margin-top: 3rem;
+  }
+}
+@media screen and (min-width: 800px) {
+  .hero {
+    .profile-image {
+      width: 400px;
+    }
+    .profile-image-name {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  }
+} */
+
+// Imports
+@import "./repertoire";
+@import "./contact-page";
+@import "./next-events";
