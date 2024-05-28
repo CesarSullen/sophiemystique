@@ -18,9 +18,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 
 // Colors
-$bg-color: #f2e7eb;
-$primary-color: #0570b6;
-$font-color: #2d2d2d;
+$bg-color: #2d2d2d;
+$primary-color: #0382d6;
+$font-color: #f2e7eb;
 
 // Utilities
 .important-text {
@@ -44,7 +44,7 @@ $font-color: #2d2d2d;
   width: 100%;
   max-width: 400px;
   background-color: $primary-color;
-  color: $bg-color;
+  color: $font-color;
 
   &:hover {
     box-shadow: 0 0 10px 1px $primary-color;
@@ -103,7 +103,6 @@ p {
   top: 0px;
 }
 .artist-name {
-  color: $bg-color;
   text-align: center;
   position: absolute;
   bottom: 20px;
