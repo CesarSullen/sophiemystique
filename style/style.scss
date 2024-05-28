@@ -92,8 +92,6 @@ p {
 }
 
 .bg-image {
-  /*   filter: blur(15px);
-  opacity: 0.7; */
   width: 100%;
   position: relative;
   top: 0px;
@@ -105,27 +103,16 @@ p {
   top: 0px;
 }
 .artist-name {
-  font-size: 2.5rem;
+  color: $bg-color;
   text-align: center;
-}
-/* .profile-image-name {
   position: absolute;
-  top: 15%;
-  transform: translateY(-50%);
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-
   h1 {
-    font-size: 2.5rem;
-    text-align: center;
+    font-size: 5rem;
   }
 }
-.profile-image {
-  width: 270px;
-  border-radius: 15px;
-  box-shadow: 1px 1px 5px 1px $bg-color;
-}
- */
 .bio-nav-section {
   display: flex;
   flex-direction: column;
@@ -147,26 +134,16 @@ p {
     margin-bottom: 1rem;
   }
 }
-
+.sign {
+  font-size: 1.5rem;
+}
 // Desktop View
 @media screen and (min-width: 700px) {
-  /*   .hero {
-    .profile-image {
-      width: 350px;
-    }
-    h1 {
-      font-size: 2.5rem;
-    }
-  } */
   .bg-image {
     display: none;
   }
   .desktop-bg-image {
     display: block;
-  }
-  .artist-name {
-    font-size: 4rem;
-    margin-bottom: 1rem;
   }
   .bio-nav-section {
     flex-direction: row;
@@ -179,38 +156,6 @@ p {
     width: 50%;
   }
 }
-/* 
-// Fixing the absolute position issue for all displays
-.bio-nav-section {
-  margin-top: 13rem;
-}
-@media screen and (min-width: 400px) {
-  .bio-nav-section {
-    margin-top: 10rem;
-  }
-}
-@media screen and (min-width: 500px) {
-  .bio-nav-section {
-    margin-top: 7rem;
-  }
-}
-@media screen and (min-width: 600px) {
-  .bio-nav-section {
-    margin-top: 3rem;
-  }
-}
-@media screen and (min-width: 800px) {
-  .hero {
-    .profile-image {
-      width: 400px;
-    }
-    .profile-image-name {
-      h1 {
-        font-size: 3rem;
-      }
-    }
-  }
-} */
 
 // Imports
 @import "./repertoire";
