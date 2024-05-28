@@ -106,7 +106,7 @@ p {
   transform: translateX(-50%);
 }
 .artist-name h1 {
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 
 .bio-nav-section {
@@ -139,6 +139,9 @@ p {
   }
   .desktop-bg-image {
     display: block;
+  }
+  .artist-name h1 {
+    font-size: 5rem;
   }
   .bio-nav-section {
     flex-direction: row;
