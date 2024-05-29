@@ -19,7 +19,7 @@
 
 // Colors
 $bg-color: #2d2d2d;
-$primary-color: #0382d6;
+$primary-color: #8ad4ff;
 $font-color: #f2e7eb;
 
 // Utilities
@@ -44,7 +44,6 @@ $font-color: #f2e7eb;
   width: 100%;
   max-width: 400px;
   background-color: $primary-color;
-  color: $font-color;
 
   &:hover {
     box-shadow: 0 0 10px 1px $primary-color;

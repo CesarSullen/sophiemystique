@@ -12,7 +12,7 @@
 }
 
 .important-text {
-  color: #0382d6;
+  color: #8ad4ff;
 }
 
 .bold {
@@ -35,11 +35,10 @@
   cursor: pointer;
   width: 100%;
   max-width: 400px;
-  background-color: #0382d6;
-  color: #f2e7eb;
+  background-color: #8ad4ff;
 }
 .btn:hover {
-  box-shadow: 0 0 10px 1px #0382d6;
+  box-shadow: 0 0 10px 1px #8ad4ff;
 }
 .btn:active {
   transform: scale(0.9);
@@ -190,11 +189,11 @@ p {
   align-items: center;
   gap: 20px;
   margin-bottom: 20px;
-  border: solid 2px #0382d6;
+  border: solid 2px #8ad4ff;
 }
 .contact-page .contact-card:hover {
   transform: scale(1.1);
-  border: dotted 2px #0382d6;
+  border: dotted 2px #8ad4ff;
 }
 .contact-page .contact-card img {
   width: 4rem;
@@ -202,11 +201,11 @@ p {
 .contact-page .contact-card .title {
   font-size: 1.5rem;
   font-family: "Spectral";
-  color: #0382d6;
+  color: #8ad4ff;
 }
 
 .events-schedule {
-  border: solid 2px #0382d6;
+  border: solid 2px #8ad4ff;
   border-radius: 8px; /* 
 justify-content: center;
 align-items: center; */
