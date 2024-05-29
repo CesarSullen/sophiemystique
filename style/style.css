@@ -36,6 +36,7 @@
   width: 100%;
   max-width: 400px;
   background-color: #8ad4ff;
+  color: #2d2d2d;
 }
 .btn:hover {
   box-shadow: 0 0 10px 1px #8ad4ff;

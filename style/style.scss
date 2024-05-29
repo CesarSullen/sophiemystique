@@ -44,6 +44,7 @@ $font-color: #f2e7eb;
   width: 100%;
   max-width: 400px;
   background-color: $primary-color;
+  color: $bg-color;
 
   &:hover {
     box-shadow: 0 0 10px 1px $primary-color;
