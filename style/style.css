@@ -107,7 +107,7 @@ p {
 }
 .artist-name h1 {
   font-size: 2.5rem;
-  text-shadow: 5px 5px 5px black;
+  text-shadow: 5px 5px 10px black;
 }
 
 .bio-nav-section {
@@ -141,9 +141,11 @@ p {
   .desktop-bg-image {
     display: block;
   }
-  .artist-name h1 {
-    font-size: 3rem;
-  }
+  /*   .artist-name {
+    h1 {
+      font-size: 3rem;
+    }
+  } */
   .bio-nav-section {
     flex-direction: row;
     gap: 20px;
