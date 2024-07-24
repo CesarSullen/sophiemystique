@@ -9,6 +9,7 @@
   transition: all 0.2s;
   list-style: none;
   text-decoration: none;
+  outline: none;
 }
 
 .important-text {
@@ -214,6 +215,31 @@ align-items: center; */
   text-align: center;
   margin-block: 2rem;
   padding: 3rem;
+}
+
+.add-event-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-block: 2rem;
+  border: solid 1px #8ad4ff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+.add-event-section input {
+  width: 100%;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+.add-event-section input:focus {
+  box-shadow: 0 0 10px 1px #8ad4ff;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

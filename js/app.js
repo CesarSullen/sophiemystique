@@ -62,3 +62,13 @@ fetch(
   .catch((error) => {
     console.error("Error fetching data:", error);
   });
+
+function sendForm() {
+  const eventTitle = document.getElementById("eventTitle").value;
+  const eventDate = document.getElementById("eventDate").value;
+  const eventTime = document.getElementById("eventTime").value;
+
+  console.log(eventTitle);
+  console.log(eventDate);
+  console.log(eventTime);
+}

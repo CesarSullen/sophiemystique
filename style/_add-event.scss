@@ -1,0 +1,25 @@
+.add-event-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-block: 2rem;
+  border: solid 1px $primary-color;
+  padding: 2rem;
+  border-radius: 8px;
+
+  input {
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    padding: 0.5rem;
+
+    &:focus {
+      box-shadow: 0 0 10px 1px $primary-color;
+    }
+  }
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
