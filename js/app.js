@@ -62,3 +62,15 @@ fetch(
   .catch((error) => {
     console.error("Error fetching data:", error);
   });
+
+// Add Events
+function sendForm() {
+  const eventTitle = document.getElementById("eventTitle").value;
+  const eventDate = document.getElementById("eventDate").value;
+  const eventTime = document.getElementById("eventTime").value;
+
+  let message = `NEW%20EVENT%0Atitle:%20${eventTitle};%0Adate:%20${eventDate};%0Atime:%20${eventTime}`;
+  let link = `http://t.me/saru_senpaii?text=${message}`;
+
+  document.getElementById("sendByTelegram").href = link;
+}
