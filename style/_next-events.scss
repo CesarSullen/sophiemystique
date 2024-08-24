@@ -1,9 +1,10 @@
 .events-schedule {
   border: solid 2px $primary-color;
-  border-radius: 8px; /* 
-  justify-content: center;
-  align-items: center; */
+  border-radius: 8px;
   text-align: center;
   margin-block: 2rem;
-  padding: 3rem;
+  padding: 1rem;
+}
+.event {
+  text-align: left;
 }
