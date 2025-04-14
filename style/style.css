@@ -156,6 +156,15 @@ p {
     width: 50%;
   }
 }
+.footer {
+  margin-top: 2rem;
+  background: #2d2d2d;
+  color: #f2e7eb;
+  padding: 20px;
+  text-align: center;
+  padding-block: 20vh;
+}
+
 .repertoire-songs h1 {
   margin-bottom: 2rem;
 }
@@ -185,7 +194,7 @@ p {
   margin: auto;
 }
 .contact-page .contact-card {
-  background-color: #232323;
+  background-color: rgb(34.8, 34.8, 34.8);
   border-radius: 15px;
   padding: 0.5rem;
   display: flex;

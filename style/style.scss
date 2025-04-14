@@ -1,13 +1,13 @@
 // Reset
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: none;
-  transition: all 0.2s;
-  list-style: none;
-  text-decoration: none;
-  outline: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	transition: all 0.2s;
+	list-style: none;
+	text-decoration: none;
+	outline: none;
 }
 
 // Typography
@@ -25,143 +25,153 @@ $font-color: #f2e7eb;
 
 // Utilities
 .important-text {
-  color: $primary-color;
+	color: $primary-color;
 }
 .bold {
-  font-weight: 600;
+	font-weight: 600;
 }
 .underline {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 .italic {
-  font-style: italic;
+	font-style: italic;
 }
 .btn {
-  padding: 1rem 2rem;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-weight: bold;
-  cursor: pointer;
-  width: 100%;
-  max-width: 400px;
-  background-color: $primary-color;
-  color: $bg-color;
+	padding: 1rem 2rem;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-weight: bold;
+	cursor: pointer;
+	width: 100%;
+	max-width: 400px;
+	background-color: $primary-color;
+	color: $bg-color;
 
-  &:hover {
-    box-shadow: 0 0 10px 1px $primary-color;
-  }
+	&:hover {
+		box-shadow: 0 0 10px 1px $primary-color;
+	}
 
-  &:active {
-    transform: scale(0.9);
-  }
+	&:active {
+		transform: scale(0.9);
+	}
 }
 .styled-text-1 {
-  font-family: "Spectral";
+	font-family: "Spectral";
 }
 .styled-text-2 {
-  font-family: "Allura";
+	font-family: "Allura";
 }
 .body-container {
-  padding: 1.5rem;
-  max-width: 1000px;
-  margin: auto;
+	padding: 1.5rem;
+	max-width: 1000px;
+	margin: auto;
 }
 
 // Fade In Transition
 .section {
-  transform: translateY(100px);
-  opacity: 0;
-  transition: 0.5s;
-  margin-bottom: 2rem;
+	transform: translateY(100px);
+	opacity: 0;
+	transition: 0.5s;
+	margin-bottom: 2rem;
 
-  &.show {
-    transform: translateY(0);
-    opacity: 1;
-  }
+	&.show {
+		transform: translateY(0);
+		opacity: 1;
+	}
 }
 
 body {
-  background-color: $bg-color;
-  color: $font-color;
-  font-family: "Poppins";
+	background-color: $bg-color;
+	color: $font-color;
+	font-family: "Poppins";
 }
 h1 {
-  font-family: "Spectral";
+	font-family: "Spectral";
 }
 p {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 .bg-image {
-  width: 100%;
-  position: relative;
-  top: 0px;
+	width: 100%;
+	position: relative;
+	top: 0px;
 }
 .desktop-bg-image {
-  display: none;
-  width: 100%;
-  position: relative;
-  top: 0px;
+	display: none;
+	width: 100%;
+	position: relative;
+	top: 0px;
 }
 .artist-name {
-  text-align: center;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  h1 {
-    font-size: 2.5rem;
-    text-shadow: 5px 5px 30px black;
-  }
+	text-align: center;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	h1 {
+		font-size: 2.5rem;
+		text-shadow: 5px 5px 30px black;
+	}
 }
 .bio-nav-section {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 .bio-section {
-  h1 {
-    font-family: "Spectral";
-    margin-bottom: 1rem;
-  }
+	h1 {
+		font-family: "Spectral";
+		margin-bottom: 1rem;
+	}
 }
 .nav-section {
-  display: block;
+	display: block;
 
-  h1 {
-    margin-bottom: 1rem;
-  }
+	h1 {
+		margin-bottom: 1rem;
+	}
 
-  .btn {
-    margin-bottom: 1rem;
-  }
+	.btn {
+		margin-bottom: 1rem;
+	}
 }
 .sign {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 // Desktop View
 @media screen and (min-width: 700px) {
-  .bg-image {
-    display: none;
-  }
-  .desktop-bg-image {
-    display: block;
-  }
-  .artist-name {
-    h1 {
-      font-size: 3.5rem;
-    }
-  }
-  .bio-nav-section {
-    flex-direction: row;
-    gap: 20px;
-  }
-  .bio-section {
-    width: 50%;
-  }
-  .nav-section {
-    width: 50%;
-  }
+	.bg-image {
+		display: none;
+	}
+	.desktop-bg-image {
+		display: block;
+	}
+	.artist-name {
+		h1 {
+			font-size: 3.5rem;
+		}
+	}
+	.bio-nav-section {
+		flex-direction: row;
+		gap: 20px;
+	}
+	.bio-section {
+		width: 50%;
+	}
+	.nav-section {
+		width: 50%;
+	}
+}
+
+// Footer
+.footer {
+	margin-top: 2rem;
+	background: $bg-color;
+	color: $font-color;
+	padding: 20px;
+	text-align: center;
+	padding-block: 20vh;
 }
 
 // Imports
